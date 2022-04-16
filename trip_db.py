@@ -6,7 +6,7 @@ import openpyxl
 
 ############################## CREATE DB ##############################
 
-def create_connection(db_file = '/Users/kuan/PycharmProjects/conestoga/SysProj/SysTA.db'):
+def create_connection(db_file = '/Users/ctaneja1/PycharmProjects/conestoga/SysProj/SysTA.db'):
     """ create a database connection to a SQLite database """
     conn = None
     try:
